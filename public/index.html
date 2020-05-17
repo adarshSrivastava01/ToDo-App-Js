@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="owner" content="Adarsh Srivastava" />
+    <meta name="author" content="Adarsh Srivastava" />
+    <link rel="shortcut icon" type="image/png" href="./image.png" />
+    <link rel="icon" type="image/png" href="./image.png" />
+    <meta
+      name="keywords"
+      content="TODO app, web todo app, todo app js, todo app github, todo list, todo js, todo list js"
+    />
+    <meta
+      name="description"
+      content="It is a TODO app built purely over Js and It is created by Adarsh Srivastava"
+    />
+    <meta name="copyright" content="Adarsh Srivastava" />
+    <meta name="language" content="ES" />
+    <meta name="Classification" content="Education" />
+    <meta
+      name="author"
+      content="adarshsrivastava, herecomesthebeastlesnar@gmail.com, adarshsrivastava@ironprogrammers.com"
+    />
+    <meta
+      name="reply-to"
+      content="herecomesthebeastlesnar@gmail.com, adarshsrivastava@ironprogrammers.com"
+    />
+    <meta
+      name="keywords"
+      content="web development, Todo App, web dev, front end web development, adarshsrivastava, web development bootcamp, javascript,html,css,bootstrap, github, indian developers, developers, seo"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="It is a TODO App built purely over Javascript. It schedules your whole day."
+    />
+    <meta property="og:title" content="Todo App by Adarsh" />
+    <meta property="og:url" content="Todo App" />
+    <meta property="og:image" content="./image.png" />
+    <noscript
+      ><strong
+        >We're sorry but It doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong
+      ></noscript
+    >
+    <title>JAVASCRIPTFUN</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/css/bootstrap-datetimepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="my-box">
+        <a href="#" class="button">+</a>
+        <!-- <div class="box__main" id="b1">
+          <div class="box--1">
+            <div class="box--event">Name of Event:</div>
+            <div class="box__main--heading">Play Cricket</div>
+          </div>
+          <div class="box--2">
+            <div class="part1">
+              <div class="box--date">Date</div>
+              <div class="box__main--date">12-05-2020</div>
+            </div>
+            <div class="part2">
+              <div class="box--time">Time</div>
+              <div class="box__main--time">12:35 AM</div>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="box_style" id="b1">ABC</div>
+        <div class="box_style" id="b2">DEF</div>
+        <div class="box_style" id="b3">GHI</div>
+        <div class="box_style" id="b4">JKL</div>
+        <div class="box_style" id="b5">MNO</div>
+        <div class="box_style" id="b6">PQR</div>
+        <div class="box_style" id="b7">STU</div> -->
+        <div class="popup" id="popup">
+          <div class="popup__content">
+            <div class="upper__part">
+              <h2 class="upper__part--heading">Fill The Details:</h2>
+              <div class="upper__part--close" id="popup__close">X</div>
+            </div>
+            <div class="name__part">
+              <div class="input-field">
+                <input type="text" class="input-text" required maxlength="15" />
+                <label>Name</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group date" id="datetimepicker1">
+                <input type="text" class="form-control" required />
+                <span class="input-group-addon"
+                  ><span class="glyphicon glyphicon-calendar"></span>
+                </span>
+              </div>
+            </div>
+            <div class="ok">
+              <div class="ok__text">Add</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__box">
+        <div class="footer_by">
+          Created By:
+        </div>
+        <div class="footer__name">
+          Adarsh Srivastava &copy;<span class="year"></span>
+        </div>
+        <div class="footer__email">adarshsrivastava@ironprogrammers.com</div>
+        <a class="footer__button" href="mailto:herecomesthebeastlesnar@gmail.com">Contact Me</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="https://rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
